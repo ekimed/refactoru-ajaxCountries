@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <meta charset="utf-8">
+  <title>Countries</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body class="container">
+  <h1>Countries</h1>
+  <form method="post" action="/search">
+    <div class="form-group">
+      <label for="search" class="inline">Search</label>
+      <input type="search" name="search" placeholder="Country Name" class="inline width40 form-control">
+      <input type="submit" class="inline btn btn-default">
+    </div>
+  </form>
+  <button class="btn btn-default load-countries">Load Countries</button>
+  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="main.js"></script>
+</body>

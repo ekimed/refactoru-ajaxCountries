@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	h1 Countries
+	form(method="post" action="/search")
+		div.form-group
+			label.inline(for="search") Search
+			input.inline.width40.form-control(type="search" name="search" placeholder="Country Name")
+			input.inline.btn.btn-default(type="submit")
+
+	button.btn.btn-default.load-countries Load Countries
